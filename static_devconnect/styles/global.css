@@ -1,0 +1,52 @@
+/* 1 forma de utilizar uma fonte */
+/*@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Telex&display=swap');*/
+
+/*2 forma de  utilizar uma fonte*/
+@font-face {
+    font-family: Great Vibes;
+    src: url(../assets/fonts/Great_Vibes/GreatVibes-Regular.ttf);
+}
+
+@font-face {
+    font-family: telex;
+    src: url(../assets/fonts/Telex/Telex-Regular.ttf);
+}
+/* Variantes*/
+:root{
+    --cor-vinho: #800020;
+    --cor-vermelho-Terroso: #BB4433;
+    --cor-laranja-queimado: #DE7B35;
+    --cor-laranja-amarelado: #EB8A1A;
+    --cor-pêssego: #ffe1ca80;
+    --cor-cinza: #D3D3D3;
+    --cor-branco: #FFFFFF;
+
+    --borda: 1px solid var(--cor-laranjaqueimado);
+    --borda-arredondada: 2px;
+
+    --tamanho-fonte-lg: 20px;
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: 14px;
+}
+/* SELETOR GLOBAL */
+
+*{
+   padding:  0; /*espaço interno*/
+   margin: 0; /*espaço externo*/
+   box-sizing: border-box; /*atribui espaços internos/ externo e bordas no tamanho final do box */
+   font-family:"Telex", sans-serif;
+
+}
+
+body{
+    background-color: var(--cor-pêssego);
+}
+
+h1{
+
+position: absolute;
+z-index: -1;
+opacity: 0;
+
+
+}
