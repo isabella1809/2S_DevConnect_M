@@ -18,8 +18,9 @@
     --cor-laranja-queimado: #DE7B35;
     --cor-laranja-amarelado: #EB8A1A;
     --cor-pêssego: #ffe1ca80;
-    --cor-cinza: #D3D3D3;
+    --cor-cinza: #d3d3d3;
     --cor-branco: #FFFFFF;
+    --cor-preta: #000000;
 
     --borda: 1px solid var(--cor-laranjaqueimado);
     --borda-arredondada: 2px;
@@ -49,4 +50,68 @@ z-index: -1;
 opacity: 0;
 
 
+}
+
+/* formulario */
+.formulario-botao-vinho{
+    background-color: var(--cor-vinho);
+    border-radius: var(--borda-arredondada);
+    border: none;
+    height: 35px;
+    
+    color: var(--cor-preta);
+    font-size: var(--tamanho-fonte-sm);
+}
+.formulario-campos > input{
+    border: var(--borda);
+    height: 35px;
+    background-color: var(--cor-branco);
+
+    color: var(--cor-cinza);
+    font-size: var(--tamanho-fonte-sm);
+    border-radius: var(--borda-arredondada);
+}
+
+.formulario-campos > label{
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preta);
+    font-weight: 600;
+}
+
+/*cadastro*/
+.cadastro-botao-vinho{ 
+    background-color: var(--cor-vinho);
+    border-radius: var(--borda-arredondada);
+    border: none;
+    height: 35px;
+
+    color: var(--cor-preta);
+    font-size: var(--tamanho-fonte-sm);
+}
+.cadastro-campos > input{
+    border: var(--borda);
+    height: 35px;
+    background-color: var(--cor-branco);
+
+    color: var(--cor-cinza);
+    font-size: var(--tamanho-fonte-sm);
+    border-radius: var(--borda-arredondada);
+}
+
+.cadastro-campos >label{
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preta);
+    font-weight: 600;
+}
+
+.campo-upload > input{
+    border: var(--borda);
+    height: 35px;
+    background-color: var(--cor-preto);
+}
+
+.campo-upload > label{
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-verde-agua);
+    font-weight: 600;
 }

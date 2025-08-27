@@ -1,16 +1,14 @@
 main{
-    background-color: #ffe1ca81;
-    min-height: 100vh;
+   /* background-color: #ffe1ca;*/
+    min-height: 100vh; 
     width: 100%;
-    display: flex;
+    display: flex; /*ativa o flex*/
     justify-content: center;
     align-items: center;
 }
 main > div{
-background-color: #ffe1ca;
-width: 100%;
-max-width: 342px;
-height: 400px;
+/*background-color: #ffe1ca1d;*/
+width: 90%;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -20,20 +18,66 @@ gap: 25px;
 }
 
 form{
-    background-color: #DE7B35;
+   background-color:#ffe1ca;
+   display: flex; /*ativar po flex*/
+   flex-direction: column;
+   justify-content: center;/*alinha na direção do flex*/
+   align-items: center;
+   gap: 15px;
+   padding: 3%;
+}
+  
+.formulario-campos{
+display: flex;
+flex-direction: column;
+width: 100%;
+gap: 5px;
+
+} 
+.formulario-botao-vinho{
+    width: 100%;
+
+}
+form > p{
+    text-transform: uppercase;
+    font-size: var(--tamanho-forte-sm);
+    color: var(--cor-vinho);
+}
+form > a, #secao-cadastro > p > a {
+    color: var(--cor-laranja-queimado);
+    font-size: var(--tamanho-forte-sm);
+    text-decoration: none;
+}
+#secao-cadastro > p{
+    color: var(--cor-laranja-queimado);
+    font-size: var(--tamanho-forte-md);
 }
 
 #secao-cadastro{
-    background-color: #EB8A1A;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 .estilo-formulario{
-    background-color: #800020;
+    width: 100%;
+    max-width: 342px;
+    background-color: #ffe1ca;
     border: var(--borda);
     width: 100%;
+   
 }
 main > div >p{
-    background-color: #BB4433;
+    background-color: #ffe1ca;
+    color: var(--cor-vinho);
+    font-size: var(--tamanho-forte-sm);
 }
-#secao-intalacao{
-    background-color: #800020;
+#secao-intalacao {
+   /* background-color: #ffe1ca;*/
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }

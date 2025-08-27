@@ -1,0 +1,93 @@
+main{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+main > div{
+width: 90%;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 15px;
+
+}
+form{
+    background-color:#ffe1ca;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 3%;
+    width: 370px;
+}
+
+#upload{
+    display: none ;
+}
+label{
+    display: inline-block;
+    width: 300px;
+}
+ 
+.cadastro-botao-vinho{
+    width: 100%;
+}
+.cadastro-campos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+.cadastro-campos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+.cadastro-campos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+.cadastro-campos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+
+}
+
+.estilo-formulario {
+    width: 100%;
+    max-width: 400px;
+    background-color: var(--cor-branco);
+    border: var(--borda);
+}
+
+#secao-cadastro {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+main>div>p {
+    color: var(--cor-preto);
+    font-size: var(--tamanho-fonte-sm);
+}
+
+
+.conta{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: var(--tamanho-forte-sm);
+    color: var(--cor-vinho)
+}
