@@ -11,8 +11,9 @@
     font-family: telex;
     src: url(../assets/fonts/Telex/Telex-Regular.ttf);
 }
+
 /* Variantes*/
-:root{
+:root {
     --cor-vinho: #800020;
     --cor-vermelho-Terroso: #BB4433;
     --cor-laranja-queimado: #DE7B35;
@@ -29,89 +30,164 @@
     --tamanho-fonte-md: 16px;
     --tamanho-fonte-sm: 14px;
 }
+
 /* SELETOR GLOBAL */
 
-*{
-   padding:  0; /*espaço interno*/
-   margin: 0; /*espaço externo*/
-   box-sizing: border-box; /*atribui espaços internos/ externo e bordas no tamanho final do box */
-   font-family:"Telex", sans-serif;
+* {
+    padding: 0;
+    /*espaço interno*/
+    margin: 0;
+    /*espaço externo*/
+    box-sizing: border-box;
+    /*atribui espaços internos/ externo e bordas no tamanho final do box */
+    font-family: "Telex", sans-serif;
 
 }
 
-body{
+body {
     background-color: var(--cor-pêssego);
 }
 
-h1{
+h1 {
 
-position: absolute;
-z-index: -1;
-opacity: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
 
 
 }
 
 /* formulario */
-.formulario-botao-vinho{
+.formulario-botao-vinho {
     background-color: var(--cor-vinho);
     border-radius: var(--borda-arredondada);
     border: none;
     height: 35px;
+
+    color: var(--cor-preta);
+    font-size: var(--tamanho-fonte-sm);
+}
+
+.formulario-campos>input {
+    border: var(--borda);
+    height: 35px;
+    background-color: var(--cor-branco);
+
+    color: var(--cor-cinza);
+    font-size: var(--tamanho-fonte-sm);
+    border-radius: var(--borda-arredondada);
+}
+
+.formulario-campos>label {
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preta);
+    font-weight: 600;
+}
+
+.estilo-formulario{
+    width: 100%;
+    background-color: #ffe1ca;
+    border: var(--borda);
+   
     
-    color: var(--cor-preta);
-    font-size: var(--tamanho-fonte-sm);
-}
-.formulario-campos > input{
-    border: var(--borda);
-    height: 35px;
-    background-color: var(--cor-branco);
-
-    color: var(--cor-cinza);
-    font-size: var(--tamanho-fonte-sm);
-    border-radius: var(--borda-arredondada);
 }
 
-.formulario-campos > label{
-    font-size: var(--tamanho-fonte-sm);
-    color: var(--cor-preta);
-    font-weight: 600;
-}
-
-/*cadastro*/
-.cadastro-botao-vinho{ 
-    background-color: var(--cor-vinho);
-    border-radius: var(--borda-arredondada);
-    border: none;
-    height: 35px;
-
-    color: var(--cor-preta);
-    font-size: var(--tamanho-fonte-sm);
-}
-.cadastro-campos > input{
-    border: var(--borda);
-    height: 35px;
-    background-color: var(--cor-branco);
-
-    color: var(--cor-cinza);
-    font-size: var(--tamanho-fonte-sm);
-    border-radius: var(--borda-arredondada);
-}
-
-.cadastro-campos >label{
-    font-size: var(--tamanho-fonte-sm);
-    color: var(--cor-preta);
-    font-weight: 600;
-}
-
-.campo-upload > input{
+.campo-upload>input {
     border: var(--borda);
     height: 35px;
     background-color: var(--cor-preto);
 }
 
-.campo-upload > label{
+.campo-upload>label {
     font-size: var(--tamanho-fonte-sm);
     color: var(--cor-verde-agua);
     font-weight: 600;
 }
+    
+/*cadastro*/
+.cadastro-botao-vinho {
+    background-color: var(--cor-vinho);
+    border-radius: var(--borda-arredondada);
+    border: none;
+    height: 35px;
+
+    color: var(--cor-preta);
+    font-size: var(--tamanho-fonte-sm);
+}
+
+.cadastro-campos>input {
+    border: var(--borda);
+    height: 35px;
+    background-color: var(--cor-branco);
+
+    color: var(--cor-cinza);
+    font-size: var(--tamanho-fonte-sm);
+    border-radius: var(--borda-arredondada);
+}
+
+.cadastro-campos>label {
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preta);
+    font-weight: 600;
+}
+
+
+
+/* cabecalho */
+
+#cabecalho {
+    background-color: #ffe1ca63;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-bottom: var(--borda);
+
+}
+
+#cabecalho>nav {
+    background-color: #ffe1ca63;
+    width: 85%;
+    max-width: 900px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-acoes {
+    background-color: #ffe1ca63;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#logo-mobile{
+   display: none; 
+}
+
+.cabecalho-acoes>a {
+    display: flex;
+    align-items: center;
+
+}
+
+#foto-perfil {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+ /*reponsivo*/
+ 
+ @media only screen and (max-width: 500px) {
+   #logo-mobile {
+    display: inline;
+   }
+
+   #logo-desktop{
+    display: none;
+   }
+ }
+
+

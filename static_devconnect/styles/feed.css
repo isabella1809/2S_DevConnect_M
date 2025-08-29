@@ -1,0 +1,55 @@
+main {
+   
+    background-color: var(--cor-pêssego);
+    width: 100%;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.contarner-flex-publi {
+    background-color: var(--cor-pêssego);
+    height: 700px;
+    width: 90%;
+    max-width: 900px;
+}
+
+#storys {
+    background-color: var(--cor-pêssego);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+    gap: 30px;
+}
+
+#storys::-webkit-scrollbar {
+    width: 0;
+}
+
+.card-story>button {
+    background-color: transparent;
+    border: none;
+
+
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preto);
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 5px;
+}
+
+.card-story>button>img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.formulario-botao-vinho{
+    width: 150px;
+}
