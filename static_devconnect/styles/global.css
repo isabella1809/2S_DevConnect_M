@@ -41,6 +41,7 @@
     box-sizing: border-box;
     /*atribui espaços internos/ externo e bordas no tamanho final do box */
     font-family: "Telex", sans-serif;
+   outline-color: var(--cor-laranja-preto);
 
 }
 
@@ -131,7 +132,18 @@ h1 {
     font-weight: 600;
 }
 
-
+#texto-upload {
+display: inline-block;
+width: 100%;
+max-width: 300px;
+min-height: 35px;
+padding: 5px;
+background-color: var(--cor-laranja-amarelado);
+color: var(--cor-cinza);
+text-align: center;
+border-radius: var(--borda-arredondada);
+font-weight: 500;
+}
 
 /* cabecalho */
 
@@ -189,5 +201,12 @@ h1 {
     display: none;
    }
  }
+ #foto-de-perfil{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
 
-
+ 
