@@ -158,7 +158,6 @@ font-weight: 500;
 }
 
 #cabecalho>nav {
-    background-color: #ffe1ca63;
     width: 85%;
     max-width: 900px;
     height: 100%;
@@ -168,7 +167,7 @@ font-weight: 500;
 }
 
 .cabecalho-acoes {
-    background-color: #ffe1ca63;
+    /* background-color: #ffe1ca63; */
     display: flex;
     align-items: center;
     gap: 15px;
@@ -208,5 +207,3 @@ font-weight: 500;
     object-position: center;
     border-radius: 50%;
 }
-
- 

@@ -1,0 +1,129 @@
+main{
+    background-color: var(--cor-pêssego);
+    width: 100%;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.contarner-flex-publi {
+    background-color: var(--cor-pêssego);
+    /* height: 700px; */
+    width: 90%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#criar-publi {
+    padding: 40px;
+}
+
+.foto-perfil {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+
+#foto-telaperfil{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+ 
+
+#tela-perfil{
+ 
+    display: flex;
+   flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+#tela-perfil>div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#tela-perfil>div>div{
+    
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 34px;
+}
+#publi-cacoes{
+    display: flex;
+    flex-wrap: nowrap;
+     align-items: center;
+     justify-content: center;
+     gap: 15px;  
+}
+
+.card-publi>header>a {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    text-decoration: none;
+    color: var(--cor-preto);
+    text-transform: lowercase;
+}
+
+
+.card-publi>figure>figcaption {
+    color: var(--cor-preto);
+    font-size: var(--tamanho-fonte-md);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 15px;
+    order: 1;
+}
+
+
+.card-publi>figure>button{
+    background-color: transparent;
+    border: none;
+
+    color: var(--cor-laranja-queimado);
+    font-size: var(--cor-vinho);
+
+    order: 3;
+
+    margin-left: 15px;
+}
+
+.interacoes-publicacao{
+    display: flex;
+    width: 98px;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    order: 2;
+   margin-left: 15px;
+   margin-top: 15px;
+}
+
+.interacoes-publicacao>button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+#publicacoes-escritas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: var(--borda);
+    gap: 35px;
+}
+.card-publi{
+    width: 50%;
+}

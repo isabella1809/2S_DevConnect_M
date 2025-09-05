@@ -151,7 +151,7 @@ main {
     align-items: center;
     gap: 5px;
     margin: 15px;
-    order: 2;
+    order: 1;
 }
 
 .descricao-publicacao {
@@ -163,7 +163,7 @@ main {
     width: 98px;
     flex-wrap:wrap ;
     justify-content: space-between;
-    order: 1;
+    order: 2;
    margin-left: 15px;
    margin-top: 15px;
 }
