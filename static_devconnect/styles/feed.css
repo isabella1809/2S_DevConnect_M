@@ -134,6 +134,7 @@ main {
 .card-publi>figure{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 .imagem-publicacao {
     object-fit: cover;
